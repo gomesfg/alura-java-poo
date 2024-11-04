@@ -1,10 +1,22 @@
 package br.com.alura.screenmatchpoo.model;
 
-public class Serie extends Titulo {
+import br.com.alura.screenmatchpoo.calculation.Classificavel;
+
+public class Serie extends Titulo implements Classificavel {
     private int temporadas;
     private boolean ativa;
     private int episodiosPorTemporada;
     private int minutosPorEpisodio;
+
+    public int getTotalDeVisualizacoes() {
+        return totalDeVisualizacoes;
+    }
+
+    public void setTotalDeVisualizacoes(int totalDeVisualizacoes) {
+        this.totalDeVisualizacoes = totalDeVisualizacoes;
+    }
+
+    private int totalDeVisualizacoes;
 
     public int getTemporadas() {
         return temporadas;
@@ -36,5 +48,19 @@ public class Serie extends Titulo {
 
     public void setMinutosPorEpisodio(int minutosPorEpisodio) {
         this.minutosPorEpisodio = minutosPorEpisodio;
+    }
+
+    @Override
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
+    }
+
+    @Override
+    public int getClassificacao() {
+        if (totalDeVisualizacoes > 100) {
+            return 4;
+        } else {
+            return 2;
+        }
     }
 }
