@@ -25,7 +25,9 @@
 
 - Para o desenvolvimento do trabalho, foi utilizada a linguagem Java e a IDE IntelliJ.
 - Bytebank: Aplicativo de cadastro de funcionários utilizando conceito de orientação a objeto.
+- Minhas músicas: Aplicativo para cadastro e classificação de musicas e podcasts utilizando os conceitos de programação orientada a objetos.
 - Screenmatch: Aplicativo de filmes com conceitos básicos de laços e condicionais.
+- Screenmatch POO: Aplicativo de filmes estruturado utilizando os conceitos de programação orientada a objetos.
 - Sistema bancário: Aplicativo de sistema bancário, utilizando conceitos de variáveis, condicionais, loops e leitura de dados.
 
 ## Licença <a name="license"></a>
