@@ -26,6 +26,7 @@
 - Para o desenvolvimento do trabalho, foi utilizada a linguagem Java e a IDE IntelliJ.
 - Bytebank: Aplicativo de cadastro de funcionários utilizando conceito de orientação a objeto.
 - Screenmatch: Aplicativo de filmes com conceitos básicos de laços e condicionais.
+- Sistema bancário: Aplicativo de sistema bancário, utilizando conceitos de variáveis, condicionais, loops e leitura de dados.
 
 ## Licença <a name="license"></a>
 
