@@ -8,6 +8,14 @@ public class Serie extends Titulo implements Classificavel {
     private int episodiosPorTemporada;
     private int minutosPorEpisodio;
 
+    /* Ao contrário dos métodos e atributos, o construtor não herda da superclasse automaticamente, sendo assim, é
+    necessário explicitar a criação do mesmo
+     */
+    public Serie(String nome, int anoDeLancamento) {
+        // O super é o construtor da classe titulo. É obrigatório chamar ele quando existe herança
+        super(nome, anoDeLancamento);
+    }
+
     public int getTotalDeVisualizacoes() {
         return totalDeVisualizacoes;
     }
