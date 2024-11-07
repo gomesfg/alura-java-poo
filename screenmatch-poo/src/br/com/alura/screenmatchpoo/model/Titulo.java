@@ -1,6 +1,6 @@
 package br.com.alura.screenmatchpoo.model;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     /* No paradigma do Encapsulamento é utilizado o modificador de acesso. Neste exemplo foi utilizado o modificador de
      acesso "private" que serve para não permitir que o metodo seja acessado diretamente na classe principal.
     Existem quatro tipos de modificadores de acesso em Java: public, protected, private e default (também conhecido
@@ -66,5 +66,12 @@ public class Titulo {
 
     public double obterMediaDasAvaliacoes(){
         return this.somaDasAvaliacoes / this.totalDeAvaliacoes;
+    }
+
+    // Aqui estamos sobrescrevendo o método compareTo da interface Comparable() para que seja possível ordenar a lista
+    //  através do método sort. No exemplo abaixo, iremos comparar o nome dos títulos e ordenar alfabeticamente.
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }

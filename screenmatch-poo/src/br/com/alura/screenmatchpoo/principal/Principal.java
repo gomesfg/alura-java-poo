@@ -1,3 +1,5 @@
+package br.com.alura.screenmatchpoo.principal;
+
 import br.com.alura.screenmatchpoo.calculation.CalculadoraDeTempo;
 import br.com.alura.screenmatchpoo.calculation.FiltroRecomendacao;
 import br.com.alura.screenmatchpoo.model.Episodio;
@@ -5,7 +7,6 @@ import br.com.alura.screenmatchpoo.model.Filme;
 import br.com.alura.screenmatchpoo.model.Serie;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Principal {
     public static void main(String[] args) {
