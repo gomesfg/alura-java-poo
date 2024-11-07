@@ -11,7 +11,8 @@
 
 [(Voltar ao topo)](#index)
 
-- Java JDK.
+- Java JDK
+- IDE de sua preferência
 
 ## Introdução <a name="introduction"></a>
 
@@ -25,6 +26,7 @@
 
 - Para o desenvolvimento do trabalho, foi utilizada a linguagem Java e a IDE IntelliJ.
 - Bytebank: Aplicativo de cadastro de funcionários utilizando conceito de orientação a objeto.
+- Lista de compras: Aplicativo de compras que utiliza o conceito de listas
 - Minhas músicas: Aplicativo para cadastro e classificação de musicas e podcasts utilizando os conceitos de programação orientada a objetos.
 - Screenmatch: Aplicativo de filmes com conceitos básicos de laços e condicionais.
 - Screenmatch POO: Aplicativo de filmes estruturado utilizando os conceitos de programação orientada a objetos.
